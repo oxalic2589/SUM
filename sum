@@ -1,0 +1,88 @@
+<aside> (sidebar)
+  <img alt="sidebar background">
+  <nav>
+    <ul>
+      <li><a href="/alumnoWebSum/v2/inicio">Inicio</a></li>
+      <li><a href="#">Mi Información</a>
+        <ul>
+          <li><a href="/alumnoWebSum/v2/informacion/perfil">Mi Perfil</a></li>
+          <li><a href="/alumnoWebSum/v2/informacion/historial">Historial Académico</a></li>
+          <li><a href="/alumnoWebSum/v2/informacion/formularioDatos">Formulario de Datos</a></li>
+          <li><a href="/alumnoWebSum/v2/informacion/fichaSocioeconomica">Ficha Socioeconomica</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Matrícula</a>
+        <ul>
+          <li><a href="/alumnoWebSum/v2/matricula/informacion">Matrícula Vía Internet</a></li>
+          <li><a href="/alumnoWebSum/v2/matricula/programacion">Programación de Asignaturas</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Reportes</a>
+        <ul>
+          <li><a href="/alumnoWebSum/v2/reportes/prematricula">Reporte Pre-Matrícula</a></li>
+          <li><a href="/alumnoWebSum/v2/reportes/matricula">Reporte Matrícula</a></li>
+          <li><a href="/alumnoWebSum/v2/reportes/horarios">Reporte Horario de Asignaturas Matriculadas</a></li>
+          <li><a href="/alumnoWebSum/v2/reportes/evaluaciones">Reporte Evaluaciones</a></li>
+          <li><a href="/alumnoWebSum/v2/reportes/deudas">Reporte Deudas</a></li>
+        </ul>
+      </li>
+      <li><a href="/alumnoWebSum/v2/asistencia">Mis Asistencias</a></li>
+      <li><a href="/alumnoWebSum/v2/tutoria">Mi Tutoria</a></li>
+      <li><a href="/alumnoWebSum/v2/planEstudios">Plan de Estudios</a></li>
+      <li><a href="/alumnoWebSum/v2/manuales">Manuales y Tutoriales</a></li>
+    </ul>
+  </nav>
+
+<header> (banner)
+  <a href="#"></a>
+  <a href="#"></a>
+  <span>00:</span> <span>12:</span>
+  <button>HOSTILIANO COBLENTZ, ANTHONY GERRY</button>
+  <input type="hidden" value="[REDACTED]">
+  <a href="/alumnoWebSum/sum/mantenimiento/perfil">Perfil</a>
+  <a href="/alumnoWebSum/logout?us=anthony.hostilianoc">Salir</a>
+  <a href="/alumnoWebSum/logout?us=anthony.hostilianoc">Salir</a>
+
+<main>
+  <article>
+    <h1>Reporte de Evaluaciones</h1>
+  </article>
+  <div>Datos del Estudiante</div>
+  <div>Periodo Académico: 2026-1</div>
+  <div>Facultad: 9 - CIENCIAS ADMINISTRATIVAS</div>
+  <div>Programa: 1 - E.P. de Administración</div>
+  <div>Especialidad: 0 - Estudios Generales</div>
+  <div>Plan de Estudios: 2023 - Plan de Estudios 2023</div>
+  <button type="button">Descargar (exportar en PDF)</button>
+  <label>Búsqueda: <input type="search"></label>
+
+  <table role="grid">
+    <thead>
+      <tr>
+        <th>Ciclo</th><th>Asignatura</th><th>Tipo Evaluación</th><th>Calificación</th><th>Fórmula</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 18 filas -->
+      <tr><td></td><td>EGO1O1 - LENGUAJE</td><td>Examen Parcial</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O1 - LENGUAJE</td><td>Eval. de Proceso</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O1 - LENGUAJE</td><td>Examen Final</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O2 - MÉTODOS DE ESTUDIO UNIVERSITARIO</td><td>Examen Parcial</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O2 - MÉTODOS DE ESTUDIO UNIVERSITARIO</td><td>Eval. de Proceso</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O2 - MÉTODOS DE ESTUDIO UNIVERSITARIO</td><td>Examen Final</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O3 - HISTORIA DEL PERÚ EN EL CONTEXTO MUNDIAL Y CONTEMPORÁNEO</td><td>Examen Parcial</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O3 - HISTORIA DEL PERÚ EN EL CONTEXTO MUNDIAL Y CONTEMPORÁNEO</td><td>Eval. de Proceso</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O3 - HISTORIA DEL PERÚ EN EL CONTEXTO MUNDIAL Y CONTEMPORÁNEO</td><td>Examen Final</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O4 - MATEMÁTICA I</td><td>Examen Parcial</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O4 - MATEMÁTICA I</td><td>Eval. de Proceso</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O4 - MATEMÁTICA I</td><td>Examen Final</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O5 - DESARROLLO PERSONAL</td><td>Examen Parcial</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O5 - DESARROLLO PERSONAL</td><td>Eval. de Proceso</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O5 - DESARROLLO PERSONAL</td><td>Examen Final</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O6 - INGLES I</td><td>Examen Parcial</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O6 - INGLES I</td><td>Eval. de Proceso</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+      <tr><td></td><td>EGO1O6 - INGLES I</td><td>Examen Final</td><td></td><td>0.2 EP + 0.2 EF + 0.6 EPRO</td></tr>
+    </tbody>
+  </table>
+  <div>Mostrando 1 - 18 de 18 registros</div>
+</main>
